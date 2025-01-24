@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What does MD5 stand for?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Message Digest algorithm 5",
+        "b": "Message Data algorithm 5",
+        "c": "Message Derivation algorithm 5",
+        "d": "Message Development algorithm 5"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation: MD5 stands for Message Digest algorithm 5. It is a widely used cryptographic hash function that produces a 128-bit hash value. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "b": "Explanation: Incorrect answer. The correct term is Message Digest algorithm 5.",
+        "c": "Explanation: Incorrect answer. The correct term is Message Digest algorithm 5.",
+        "d": "Explanation: Incorrect answer. The correct term is Message Digest algorithm 5."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the primary use of MD5?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Encrypting data",
+        "b": "Hashing data",
+        "c": "Compressing data",
+        "d": "Generating random numbers"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation: Incorrect answer. MD5 is not used for encrypting data.",
+        "b": "Explanation: MD5 is primarily used for hashing data, creating a fixed-size hash value from variable-size input data. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "c": "Explanation: Incorrect answer. MD5 does not compress data.",
+        "d": "Explanation: Incorrect answer. MD5 does not generate random numbers."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
