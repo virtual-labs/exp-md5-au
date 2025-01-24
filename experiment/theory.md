@@ -21,11 +21,12 @@ MD5 (Message Digest Algorithm 5) is a widely used cryptographic hash function th
 - For Game Boards and Graphics.
 
 </div>
-<div>
+
 
 ###### Advantages of MD5 Algorithm:
-
+<div>
 - MD5 is faster and simple to understand.
 - MD5 algorithm generates a strong password in 16 bytes format. All developers like web developers etc use the MD5 algorithm to secure the password of users.
 - To integrate the MD5 algorithm, relatively low memory is necessary.
-- It is very easy and faster to generate a digest message of the original message.</div>
+- It is very easy and faster to generate a digest message of the original message.
+</div>
