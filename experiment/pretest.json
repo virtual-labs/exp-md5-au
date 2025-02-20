@@ -34,6 +34,57 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What is a major security issue with MD5?",
+      "answers": {
+        "a": "It is too slow for modern applications",
+        "b": "It produces unpredictable results",
+        "c": "It is vulnerable to collision attacks",
+        "d": "It cannot be implemented in software"
+      },
+      "explanations": {
+        "a": "Explanation: Incorrect answer. MD5 is actually very fast, which contributed to its early adoption.",
+        "b": "Explanation: Incorrect answer. MD5 produces deterministic hash values for the same input.",
+        "c": "Explanation: MD5 is vulnerable to collision attacks, meaning two different inputs can produce the same hash. This makes it insecure for cryptographic purposes. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "d": "Explanation: Incorrect answer. MD5 can be implemented in both hardware and software."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following hash functions is considered more secure than MD5?",
+      "answers": {
+        "a": "SHA-1",
+        "b": "SHA-256",
+        "c": "MD4",
+        "d": "CRC32"
+      },
+      "explanations": {
+        "a": "Explanation: Incorrect answer. While SHA-1 is more secure than MD5, it is also considered weak and vulnerable to collision attacks.",
+        "b": "Explanation: SHA-256 is considered more secure and is widely recommended for cryptographic applications. More information can be found <a href='https://en.wikipedia.org/wiki/SHA-2'>here</a>",
+        "c": "Explanation: Incorrect answer. MD4 is an older and even weaker hash function than MD5.",
+        "d": "Explanation: Incorrect answer. CRC32 is not a cryptographic hash function and is not suitable for security applications."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of attack allows an attacker to generate two different inputs with the same MD5 hash?",
+      "answers": {
+        "a": "Brute force attack",
+        "b": "Collision attack",
+        "c": "Rainbow table attack",
+        "d": "Side-channel attack"
+      },
+      "explanations": {
+        "a": "Explanation: Incorrect answer. Brute force attacks try all possible inputs but do not specifically target hash collisions.",
+        "b": "Explanation: A collision attack occurs when an attacker finds two different inputs that produce the same MD5 hash, making it insecure for cryptographic purposes. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "c": "Explanation: Incorrect answer. Rainbow table attacks are used to reverse hashed passwords, not generate collisions.",
+        "d": "Explanation: Incorrect answer. Side-channel attacks exploit hardware weaknesses, not hash functions."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
