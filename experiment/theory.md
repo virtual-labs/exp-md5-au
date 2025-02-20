@@ -23,5 +23,3 @@ This proposal outlines an educational exercise that simulates the **MD5 hashing 
 - **Password Verification** – MD5 can be used to store and compare hashed passwords for authentication purposes.  
 - **Checksums in Software Distribution** – Developers use MD5 to provide a checksum for verifying software downloads.  
 - **Gaming and Graphics** – Some game engines and applications utilize MD5 hashing for data management and verification.  
-
-By engaging in this hands-on exercise, students will develop a **comprehensive understanding** of how **MD5 hashing** functions and where it is applicable in **real-world scenarios**. Additionally, they will learn about its **limitations** and why **stronger hashing algorithms** like SHA-256 are now preferred for security purposes.
