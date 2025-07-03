@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the length of the hash value produced by the MD5 algorithm?",
+      "answers": {
+        "a": "128 bits",
+        "b": "160 bits",
+        "c": "256 bits",
+        "d": "512 bits"
+      },
+      "explanations": {
+        "a": "Explanation: The MD5 algorithm produces a hash value that is 128 bits long. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "b": "Explanation: Incorrect answer. The MD5 algorithm produces a 128-bit hash value.",
+        "c": "Explanation: Incorrect answer. The MD5 algorithm produces a 128-bit hash value.",
+        "d": "Explanation: Incorrect answer. The MD5 algorithm produces a 128-bit hash value."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a known vulnerability of the MD5 algorithm?",
+      "answers": {
+        "a": "High computational cost",
+        "b": "Collision resistance",
+        "c": "Length extension attack",
+        "d": "Not generating unique hashes"
+      },
+      "explanations": {
+        "a": "Explanation: Incorrect answer. MD5 is known for its low computational cost.",
+        "b": "Explanation: Incorrect answer. Collision resistance is a property that MD5 lacks.",
+        "c": "Explanation: The MD5 algorithm is vulnerable to length extension attacks, where an attacker can append data to the hash and still produce a valid hash. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "d": "Explanation: Incorrect answer. The issue with MD5 is not with uniqueness but with collision vulnerabilities."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In which year was the MD5 algorithm publicly released?",
+      "answers": {
+        "a": "1985",
+        "b": "1991",
+        "c": "1995",
+        "d": "2000"
+      },
+      "explanations": {
+        "a": "Explanation: Incorrect answer. MD5 was not released in 1985.",
+        "b": "Explanation: The MD5 algorithm was publicly released in 1991 by Ronald Rivest. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "c": "Explanation: Incorrect answer. MD5 was released earlier, in 1991.",
+        "d": "Explanation: Incorrect answer. MD5 was released earlier, in 1991."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following best describes the main weakness of MD5?",
+      "answers": {
+        "a": "It is too slow for modern applications",
+        "b": "It is vulnerable to collision attacks",
+        "c": "It uses too much memory",
+        "d": "It cannot be implemented in hardware"
+      },
+      "explanations": {
+        "a": "Explanation: Incorrect answer. MD5 is actually quite fast, which is one reason it was widely used.",
+        "b": "Explanation: MD5 is vulnerable to collision attacks, where two different inputs can produce the same hash value. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "c": "Explanation: Incorrect answer. MD5 does not require excessive memory.",
+        "d": "Explanation: Incorrect answer. MD5 can be implemented in hardware as well as software."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which cryptographic hash function is recommended as a secure alternative to MD5?",
+      "answers": {
+        "a": "SHA-1",
+        "b": "SHA-256",
+        "c": "MD4",
+        "d": "CRC32"
+      },
+      "explanations": {
+        "a": "Explanation: Incorrect answer. SHA-1 is more secure than MD5 but still vulnerable to collision attacks.",
+        "b": "Explanation: SHA-256 is a widely recommended secure alternative to MD5. More information can be found <a href='https://en.wikipedia.org/wiki/SHA-2'>here</a>",
+        "c": "Explanation: Incorrect answer. MD4 is an older and even weaker hash function than MD5.",
+        "d": "Explanation: Incorrect answer. CRC32 is not a cryptographic hash function and is not suitable for security applications."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary purpose of a cryptographic hash function like MD5?",
+      "answers": {
+        "a": "To encrypt data",
+        "b": "To compress files",
+        "c": "To generate a fixed-size output from variable input",
+        "d": "To store passwords in plaintext"
+      },
+      "explanations": {
+        "a": "Explanation: Incorrect answer. Hash functions do not encrypt data; they create a unique fingerprint of the input.",
+        "b": "Explanation: Incorrect answer. Hash functions are not used for file compression.",
+        "c": "Explanation: A cryptographic hash function like MD5 is used to generate a fixed-size hash from variable-length input. More information can be found <a href='https://en.wikipedia.org/wiki/MD5'>here</a>",
+        "d": "Explanation: Incorrect answer. Storing passwords in plaintext is a security risk and not the purpose of hash functions."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
