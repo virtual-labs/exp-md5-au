@@ -53,21 +53,21 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Which of the following hash functions is considered more secure than MD5?",
+      "question": "Which step in the MD5 algorithm involves dividing the input into 512-bit blocks?",
       "answers": {
-        "a": "SHA-1",
-        "b": "SHA-256",
-        "c": "MD4",
-        "d": "CRC32"
+        "a": "Padding the input",
+        "b": "Appending the message length",
+        "c": "Processing the message",
+        "d": "Generating the final hash"
       },
       "explanations": {
-        "a": "Explanation: Incorrect answer. While SHA-1 is more secure than MD5, it is also considered weak and vulnerable to collision attacks.",
-        "b": "Explanation: SHA-256 is considered more secure and is widely recommended for cryptographic applications. More information can be found <a href='https://en.wikipedia.org/wiki/SHA-2'>here</a>",
-        "c": "Explanation: Incorrect answer. MD4 is an older and even weaker hash function than MD5.",
-        "d": "Explanation: Incorrect answer. CRC32 is not a cryptographic hash function and is not suitable for security applications."
+        "a": "Explanation: Incorrect answer. Padding happens before dividing into 512-bit blocks.",
+        "b": "Explanation: Incorrect answer. Appending the message length happens after padding.",
+        "c": "Explanation: Correct! During this step, the input is divided into 512-bit blocks, and each block is processed to generate the final hash.",
+        "d": "Explanation: Incorrect answer. The final hash is generated after processing all blocks."
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     },
     {
       "question": "Which type of attack allows an attacker to generate two different inputs with the same MD5 hash?",
