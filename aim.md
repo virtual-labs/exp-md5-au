@@ -1,0 +1,2 @@
+### Aim of the experiment
+The primary aim of this exercise is to provide a hands-on understanding of how the MD5 hashing algorithm processes input data to generate a unique hash value. This experiment will help in grasping the concept of cryptographic hashing, including how small changes in input data lead to significantly different hash outputs.
