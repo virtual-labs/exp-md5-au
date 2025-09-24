@@ -1,5 +1,3 @@
-### Theory  
-
 MD5 (**Message Digest Algorithm 5**) is a **cryptographic hash function** that produces a **fixed-size 128-bit hash value** from an input of **any length**. It is widely used to verify **data integrity** by generating a unique hash that can be compared against an original reference.  
 
 However, due to **security vulnerabilities** like **collision attacks** (where two different inputs produce the same hash), MD5 is **no longer recommended** for secure cryptographic applications.  
